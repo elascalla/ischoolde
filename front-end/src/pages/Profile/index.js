@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { useDispatch, useSelector } from 'react-redux';
-import { Form, Input } from '@rocketseat/unform';
+import { useDispatch } from "react-redux";
+import { Form, Input } from "@rocketseat/unform";
 
-import { signOut } from '../../store/modules/auth/actions';
-import { updateProfileRequest } from '../../store/modules/user/actions';
+import { signOut } from "../../store/modules/auth/actions";
+import { updateProfileRequest } from "../../store/modules/user/actions";
 
-import { Container, SubmitButton, LogoutButton, Text } from './styles';
+import { Container, SubmitButton, LogoutButton, Text } from "./styles";
 
 export default function Profile() {
   const dispatch = useDispatch();
@@ -51,6 +51,6 @@ export default function Profile() {
       <LogoutButton type="button" onClick={handleSignOut}>
         Deslogar
       </LogoutButton>
-    </Container >
+    </Container>
   );
 }
