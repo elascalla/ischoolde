@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Container } from "./styles";
+import { Wrapper, Container, ViewButton } from "./styles";
 
 export default function RankingSchool() {
   const data = [
@@ -10,7 +10,7 @@ export default function RankingSchool() {
       students: 40
     },
     {
-      name: "E.M. Zeferino Rodrigues Machado",
+      name: "E.M. Zeferino Rodrigues",
       points: 320,
       students: 28
     }
@@ -23,9 +23,17 @@ export default function RankingSchool() {
           <Wrapper>
             <div>
               <p>{school.name}</p>
-              <p>{school.points}</p>
-              <p>{school.students}</p>
             </div>
+            <div>
+              <p>Pontos</p>
+              <p> {school.points}</p>
+            </div>
+            <div>
+              <p>Alunos</p>
+              <p> {school.students}</p>
+            </div>
+            <button type="button">VER PERFIL</button>
+            <ViewButton />
           </Wrapper>
         ))}
       </ul>
