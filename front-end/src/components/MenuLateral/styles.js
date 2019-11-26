@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { darken } from "polished";
 
 export const Container = styled.div`
-  background: linear-gradient(-120deg, #0f0f17, #1f1f2b);;
+  background: linear-gradient(-120deg, #0f0f17, #1f1f2b);
   padding: 30px 5px;
   height: 100%;
   width: max-content;
@@ -17,6 +17,33 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  button {
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    border: 0px;
+    border-top: 1px solid rgba(255,255,255,.3);
+    padding-top: 10px;
+  }
+
+  span {
+    display: flex;
+    margin-top:  -10px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    svg {
+      margin-right: 10px;
+    }
+  }
 
   nav {
     display: flex;

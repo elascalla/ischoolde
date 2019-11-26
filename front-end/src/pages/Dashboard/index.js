@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { FiStar } from 'react-icons/fi';
 import { FaStar, FaFlagCheckered } from 'react-icons/fa';
+import { IoIosSchool } from "react-icons/io/";
 
-import { ProductList } from "./styles";
+import { ProductList, ImageSchool } from "./styles";
 
 export default function Dashboard() {
     return (
@@ -42,6 +43,22 @@ export default function Dashboard() {
           <h4> Nível 20 </h4>
           <strong>Desafio Uber
             <span>R$ 30,00</span>
+            <h2>+20 pontos</h2>
+          </strong>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation</p>
+
+          <button type="button">
+            <FaFlagCheckered size={16}/>Aceitar Desafio
+          </button>
+        </li>
+        <li key="1">
+          <ImageSchool>
+            <IoIosSchool size={30} /> iSchoolde
+          </ImageSchool>
+          <h4> Nível 20 </h4>
+          <strong>Desafio Uber
             <h2>+20 pontos</h2>
           </strong>
 

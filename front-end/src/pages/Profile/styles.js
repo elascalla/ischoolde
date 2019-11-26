@@ -2,22 +2,32 @@ import styled, { keyframes } from 'styled-components';
 import { darken } from 'polished';
 
 export const Text = styled.div`
-  color: #fff;
+  color: rgb(25, 24, 31);
   font-size: 16px;
 
   strong {
     font-size: 20px;
   }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const Container = styled.div`
   max-width: 600px;
-  margin: 50px auto;
+  margin: 0px auto;
 
   form {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+
+    h2 {
+      font-size: 20px;
+    }
 
     input {
       flex: 1;
@@ -26,7 +36,7 @@ export const Container = styled.div`
       border-radius: 5px;
       font-size: 16px;
       margin-top: 10px;
-      width: 100%;
+      width: 500px;
       justify-content: center;
       background: rgb(25, 24, 31);
       color: #fff;

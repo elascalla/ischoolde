@@ -9,6 +9,7 @@ import Register from "../pages/Register";
 import CadastroDesafio from "../pages/CadastroDesafio";
 import Ranking from "../pages/Ranking";
 import CodeSubmit from "../pages/CodeSubmit";
+import RankingSchool from "../pages/RankingSchool";
 
 export default function Routes() {
   return (
@@ -21,6 +22,7 @@ export default function Routes() {
       <Route path="/register-challenge" exact component={CadastroDesafio} />
       <Route path="/ranking" exact component={Ranking} />
       <Route path="/code-submit" exact component={CodeSubmit} />
+      <Route path="/ranking-school" exact component={RankingSchool} />
 
       <Route path="/" component={Register} />
     </Switch>

@@ -1,6 +1,23 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
+export const ImageSchool = styled.h2`
+  align-self: center;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #0f0f17;
+  color: #fff;
+
+  border-radius: 4px 4px 0px 0px;
+  svg {
+    margin-right: 10px;
+  }
+`;
+
 export const ProductList = styled.ul`
   max-width: 900px;
   display: grid;
@@ -10,14 +27,15 @@ export const ProductList = styled.ul`
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
+
   li {
     display: flex;
     flex-direction: column;
     background:  linear-gradient(-120deg, #fff, #fff);
-    border-radius: 4px;
     height: 300px;
     border: 1px solid rgba(173,173,173,.5);
     box-shadow: 4px 4px 4px rgba(173,173,173,.5);
+    border-radius: 4px;
 
     h4 {
       background: #fff;
@@ -39,6 +57,7 @@ export const ProductList = styled.ul`
       align-self: center;
       width: 100%;
       height: 100px;
+      border-radius: 4px 4px 0px 0px;
     }
 
     > strong {
