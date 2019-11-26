@@ -59,7 +59,6 @@ export default function Dashboard() {
           </ImageSchool>
           <h4> Nível 20 </h4>
           <strong>Desafio Uber
-            <span>R$ 30,00</span>
             <h2>+20 pontos</h2>
           </strong>
 
