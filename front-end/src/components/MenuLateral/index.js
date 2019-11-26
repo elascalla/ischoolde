@@ -6,6 +6,8 @@ import {
   MdList
 } from "react-icons/md";
 
+import { IoIosSchool } from "react-icons/io/";
+
 import { Container, Content } from "./styles";
 
 export default function Header() {
@@ -13,6 +15,7 @@ export default function Header() {
     <Container>
       <Content>
         <nav>
+          <span><IoIosSchool size={23}/> iSchoolde</span>
           <Link to="/dashboard">
             <MdDonutLarge size={30} />
             DASHBOARD
