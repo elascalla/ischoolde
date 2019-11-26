@@ -1,0 +1,62 @@
+{
+  "school": [
+    { "id": 1, "name": "E.E. Samuel Gonçalves" },
+    { "id": 2, "name": "E.E. Pereira Moraes" }
+  ],
+  "user": [
+    { "id": 1, "name": "Admin", "profile": "admin" },
+    { "id": 2, "name": "Parceiro", "profile": "partner" },
+    { "id": 3, "name": "Aluno", "profile": "student" },
+    { "id": 4, "name": "Mentor", "profile": "mentor" }
+  ],
+  "challenge": [
+    {
+      "id": 1,
+      "title": "Início jornada",
+      "sponsored": "S",
+      "partner": null,
+      "requirement": 0,
+      "points": 5,
+      "subscriptions_limit": 100,
+      "subscription_deadline": null,
+      "resolution_deadline": null,
+      "reward": null
+    },
+    {
+      "id": 2,
+      "title": "Jornada I",
+      "sponsored": "S",
+      "partner": null,
+      "requirement": 0,
+      "points": 5,
+      "subscriptions_limit": 100,
+      "subscription_deadline": null,
+      "resolution_deadline": null,
+      "reward": null
+    },
+    {
+      "id": 3,
+      "title": "Jornada II",
+      "sponsored": "S",
+      "partner": 2,
+      "requirement": 10,
+      "points": 5,
+      "subscriptions_limit": 20,
+      "subscription_deadline": null,
+      "resolution_deadline": null,
+      "reward": null
+    },
+    {
+      "id": 4,
+      "title": "Jornada III",
+      "sponsored": "S",
+      "partner": null,
+      "requirement": 0,
+      "points": 5,
+      "subscriptions_limit": 100,
+      "subscription_deadline": null,
+      "resolution_deadline": null,
+      "reward": null
+    }
+  ]
+}
