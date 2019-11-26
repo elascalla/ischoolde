@@ -21,7 +21,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: linear-gradient(-90deg, #0f0f17, #0f0f17);
+    background: linear-gradient(-90deg, #fff, #fff);
     -webkit-font-smoothing: antialiased;
     margin: 0px;
   }
