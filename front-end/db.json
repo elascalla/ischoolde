@@ -1,13 +1,10 @@
 {
-  "school": [
-    { "id": 1, "name": "E.E. Samuel Gonçalves" },
-    { "id": 2, "name": "E.E. Pereira Moraes" }
-  ],
   "user": [
     { "id": 1, "name": "Admin", "profile": "admin" },
     { "id": 2, "name": "Parceiro", "profile": "partner" },
     { "id": 3, "name": "Aluno", "profile": "student" },
-    { "id": 4, "name": "Mentor", "profile": "mentor" }
+    { "id": 4, "name": "Mentor", "profile": "mentor" },
+    { "id": 5, "name": "Escola", "profile": "school" }
   ],
   "challenge": [
     {
