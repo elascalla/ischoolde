@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { darken } from "polished";
 
 export const Container = styled.div`
-  background: #fff;
+  background: linear-gradient(-120deg, #0f0f17, #1f1f2b);;
   padding: 30px 5px;
-  height: 90%;
+  height: 100%;
   width: max-content;
   align-self: center;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  box-shadow: 2px 2px 2px #c6c6c6;
 `;
 
 export const Content = styled.div`
@@ -29,17 +30,20 @@ export const Content = styled.div`
       align-items: center;
       font-weight: bold;
       font-size: 14px;
-      color: #6756b8;
+      color: #fff;
       transition: 0.4s;
       margin: 10px;
       text-transform: uppercase;
+      padding-bottom: 10px;
+      border-bottom: 2px solid transparent;
 
       svg {
         margin-right: 7px;
       }
 
       &:hover {
-        color: ${darken(0.3, "#6756b8")};
+        color: ${darken(0.3, "#fff")};
+        border-bottom: 2px solid #fff;
         transition: 0.4s;
       }
     }

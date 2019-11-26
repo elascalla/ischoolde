@@ -3,13 +3,12 @@ import { darken } from 'polished';
 
 export const ProductList = styled.ul`
   max-width: 900px;
-  justify-content: center;
-  align-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   list-style: none;
   margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 20px;
   li {
     display: flex;

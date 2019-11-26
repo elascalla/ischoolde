@@ -6,8 +6,6 @@ import {
   MdList
 } from "react-icons/md";
 
-// import logo from '../../assets/images/orbita_logo.png';
-
 import { Container, Content } from "./styles";
 
 export default function Header() {
