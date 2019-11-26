@@ -16,7 +16,9 @@ export default function Header() {
     <Container>
       <Content>
         <nav>
-          <span><IoIosSchool size={23}/> iSchoolde</span>
+          <span>
+            <IoIosSchool size={23} /> iSchoolde
+          </span>
           <Link to="/dashboard">
             <MdPerson size={30} />
             Perfil do Jovem
@@ -33,8 +35,11 @@ export default function Header() {
             <MdList size={30} />
             Ranking
           </Link>
+          <Link to="/ranking-school">
+            <MdList size={30} />
+            Ranking Escola
+          </Link>
         </nav>
-
       </Content>
     </Container>
   );
