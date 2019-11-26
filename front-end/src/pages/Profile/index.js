@@ -32,8 +32,8 @@ export default function Profile() {
       <hr/>
 
       <Form onSubmit={handleSubmit}>
-        <Input name="name" placeholder="Nome completo" />
-        <Input name="email" placeholder="Seu e-mail" />
+        <Input name="name" placeholder="Nome completo" value="Erick Lascalla" />
+        <Input name="email" placeholder="Seu e-mail" value="erick.lascalla@gmail.com" />
 
         <hr />
 
