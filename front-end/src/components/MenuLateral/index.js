@@ -7,6 +7,8 @@ import {
   MdPerson
 } from "react-icons/md";
 
+import { FiBarChart } from "react-icons/fi";
+
 import { IoIosSchool } from "react-icons/io/";
 
 import { Container, Content } from "./styles";
@@ -19,7 +21,7 @@ export default function Header() {
           <span>
             <IoIosSchool size={23} /> iSchoolde
           </span>
-          <Link to="/dashboard">
+          <Link to="/profile">
             <MdPerson size={30} />
             Perfil do Jovem
           </Link>
@@ -32,11 +34,11 @@ export default function Header() {
             Cadastrar desafio
           </Link>
           <Link to="/ranking">
-            <MdList size={30} />
+            <FiBarChart size={30} />
             Ranking
           </Link>
           <Link to="/ranking-school">
-            <MdList size={30} />
+            <FiBarChart size={30} />
             Ranking Escola
           </Link>
         </nav>

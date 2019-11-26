@@ -25,11 +25,15 @@ export default function Profile() {
         Olá <strong>Lucas</strong>,
         <br />
         Veja as informações do seu perfil!
+
+        <h2>Ranking Escolar: <span>30 de 1650</span></h2>
       </Text>
+
+      <hr/>
+
       <Form onSubmit={handleSubmit}>
         <Input name="name" placeholder="Nome completo" />
         <Input name="email" placeholder="Seu e-mail" />
-        <Input name="state" placeholder="Seu estado" />
 
         <hr />
 
@@ -47,10 +51,6 @@ export default function Profile() {
 
         <SubmitButton type="submit">Atualizar</SubmitButton>
       </Form>
-
-      <LogoutButton type="button" onClick={handleSignOut}>
-        Deslogar
-      </LogoutButton>
     </Container>
   );
 }
