@@ -1,0 +1,794 @@
+[
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "4.725",
+    "zip_code": "91913",
+    "state": "CA",
+    "cost": "494.3319052"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/14/09",
+    "system_size": "1.505",
+    "zip_code": "92113",
+    "state": "CA",
+    "cost": "609.2389144"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "6.36",
+    "zip_code": "92009",
+    "state": "CA",
+    "cost": "665.3864375"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "2.385",
+    "zip_code": "92024",
+    "state": "CA",
+    "cost": "249.5199141"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/29/15",
+    "system_size": "5.775",
+    "zip_code": "92069",
+    "state": "CA",
+    "cost": "604.1834397"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "7.42",
+    "zip_code": "92021",
+    "state": "CA",
+    "cost": "776.2841771"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/6/16",
+    "system_size": "7.59",
+    "zip_code": "92119",
+    "state": "CA",
+    "cost": "721.5347301"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/9/16",
+    "system_size": "8.28",
+    "zip_code": "92129",
+    "state": "CA",
+    "cost": "787.1287965"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/18/15",
+    "system_size": "2.475",
+    "zip_code": "92040",
+    "state": "CA",
+    "cost": "258.9357599"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/24/16",
+    "system_size": "4.905",
+    "zip_code": "92024",
+    "state": "CA",
+    "cost": "466.2882544"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "8.215",
+    "zip_code": "92057",
+    "state": "CA",
+    "cost": "859.4574817"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "1/5/10",
+    "system_size": "3.87",
+    "zip_code": "92064",
+    "state": "CA",
+    "cost": "1086.289511"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "4.77",
+    "zip_code": "92027",
+    "state": "CA",
+    "cost": "499.0398281"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/20/16",
+    "system_size": "5.98",
+    "zip_code": "92677",
+    "state": "CA",
+    "cost": "568.4819086"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "5.565",
+    "zip_code": "92069",
+    "state": "CA",
+    "cost": "582.2131328"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/29/15",
+    "system_size": "2.12",
+    "zip_code": "92069",
+    "state": "CA",
+    "cost": "221.7954792"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "6/27/16",
+    "system_size": "4.2",
+    "zip_code": "92111",
+    "state": "CA",
+    "cost": "399.2682301"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/11/16",
+    "system_size": "3.57",
+    "zip_code": "92675",
+    "state": "CA",
+    "cost": "339.3779956"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/4/16",
+    "system_size": "6.89",
+    "zip_code": "92677",
+    "state": "CA",
+    "cost": "654.9900251"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "6.555",
+    "zip_code": "92009",
+    "state": "CA",
+    "cost": "685.7874367"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "3.975",
+    "zip_code": "92123",
+    "state": "CA",
+    "cost": "415.8665234"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/31/09",
+    "system_size": "7.095",
+    "zip_code": "92020",
+    "state": "CA",
+    "cost": "2872.126311"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/13/16",
+    "system_size": "4.125",
+    "zip_code": "92024",
+    "state": "CA",
+    "cost": "392.1384403"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "4/5/16",
+    "system_size": "9.156",
+    "zip_code": "92021",
+    "state": "CA",
+    "cost": "870.4047416"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/21/15",
+    "system_size": "4.77",
+    "zip_code": "92064",
+    "state": "CA",
+    "cost": "499.0398281"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "5.035",
+    "zip_code": "92084",
+    "state": "CA",
+    "cost": "526.764263"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/29/15",
+    "system_size": "3.3",
+    "zip_code": "92057",
+    "state": "CA",
+    "cost": "345.2476798"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "9.18",
+    "zip_code": "92037",
+    "state": "CA",
+    "cost": "867.931743"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/5/16",
+    "system_size": "9.01",
+    "zip_code": "92688",
+    "state": "CA",
+    "cost": "856.5254174"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/30/15",
+    "system_size": "3.975",
+    "zip_code": "92065",
+    "state": "CA",
+    "cost": "415.8665234"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "2.475",
+    "zip_code": "92131",
+    "state": "CA",
+    "cost": "258.9357599"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "7.95",
+    "zip_code": "92020",
+    "state": "CA",
+    "cost": "831.7330468"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/30/09",
+    "system_size": "3.01",
+    "zip_code": "92129",
+    "state": "CA",
+    "cost": "1218.477829"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/29/16",
+    "system_size": "4.32",
+    "zip_code": "92027",
+    "state": "CA",
+    "cost": "410.6758938"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/29/15",
+    "system_size": "2.12",
+    "zip_code": "92057",
+    "state": "CA",
+    "cost": "221.7954792"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "2.385",
+    "zip_code": "91945",
+    "state": "CA",
+    "cost": "249.5199141"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/5/16",
+    "system_size": "3.64",
+    "zip_code": "92119",
+    "state": "CA",
+    "cost": "346.0324661"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/30/15",
+    "system_size": "9.01",
+    "zip_code": "92081",
+    "state": "CA",
+    "cost": "942.6307864"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "3.85",
+    "zip_code": "92629",
+    "state": "CA",
+    "cost": "402.7889598"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/3/16",
+    "system_size": "10.08",
+    "zip_code": "92129",
+    "state": "CA",
+    "cost": "958.2437522"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/21/15",
+    "system_size": "5.415",
+    "zip_code": "91914",
+    "state": "CA",
+    "cost": "566.5200564"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "15.5",
+    "zip_code": "92067",
+    "state": "CA",
+    "cost": "1621.61789"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/14/16",
+    "system_size": "12.72",
+    "zip_code": "91977",
+    "state": "CA",
+    "cost": "1086.009586"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "2/8/10",
+    "system_size": "3.28",
+    "zip_code": "92071",
+    "state": "CA",
+    "cost": "920.679482"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/28/15",
+    "system_size": "7.15",
+    "zip_code": "92130",
+    "state": "CA",
+    "cost": "748.0366396"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "8.835",
+    "zip_code": "92692",
+    "state": "CA",
+    "cost": "924.3221973"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/27/16",
+    "system_size": "3.975",
+    "zip_code": "92019",
+    "state": "CA",
+    "cost": "377.8788606"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "7.155",
+    "zip_code": "92677",
+    "state": "CA",
+    "cost": "748.5597422"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/3/16",
+    "system_size": "16.695",
+    "zip_code": "92067",
+    "state": "CA",
+    "cost": "1446.01644"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "6.5",
+    "zip_code": "92123",
+    "state": "CA",
+    "cost": "680.0333087"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/15/15",
+    "system_size": "1.59",
+    "zip_code": "92065",
+    "state": "CA",
+    "cost": "166.3466094"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "6.6",
+    "zip_code": "92131",
+    "state": "CA",
+    "cost": "690.4953596"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "2.915",
+    "zip_code": "92054",
+    "state": "CA",
+    "cost": "304.9687838"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/1/16",
+    "system_size": "11.18",
+    "zip_code": "92679",
+    "state": "CA",
+    "cost": "952.4448565"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/29/09",
+    "system_size": "3",
+    "zip_code": "92117",
+    "state": "CA",
+    "cost": "1214.42973"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "4.312",
+    "zip_code": "92117",
+    "state": "CA",
+    "cost": "410.1123954"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/13/16",
+    "system_size": "3.3",
+    "zip_code": "92040",
+    "state": "CA",
+    "cost": "313.7107522"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/23/16",
+    "system_size": "4.95",
+    "zip_code": "92119",
+    "state": "CA",
+    "cost": "470.5661283"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "3.71",
+    "zip_code": "92117",
+    "state": "CA",
+    "cost": "388.1420885"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/25/16",
+    "system_size": "8.4",
+    "zip_code": "92020",
+    "state": "CA",
+    "cost": "798.5364602"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "5.2",
+    "zip_code": "92064",
+    "state": "CA",
+    "cost": "544.026647"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "5/16/16",
+    "system_size": "8.68",
+    "zip_code": "92040",
+    "state": "CA",
+    "cost": "825.1543422"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "2.915",
+    "zip_code": "92028",
+    "state": "CA",
+    "cost": "304.9687838"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "8.48",
+    "zip_code": "91906",
+    "state": "CA",
+    "cost": "887.1819166"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/23/09",
+    "system_size": "3.584",
+    "zip_code": "92120",
+    "state": "CA",
+    "cost": "1450.838717"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "4.59",
+    "zip_code": "92692",
+    "state": "CA",
+    "cost": "480.2081365"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/26/16",
+    "system_size": "6.468",
+    "zip_code": "92114",
+    "state": "CA",
+    "cost": "558.9755221"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/4/16",
+    "system_size": "6.6",
+    "zip_code": "92084",
+    "state": "CA",
+    "cost": "568.1016531"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "6.21",
+    "zip_code": "92008",
+    "state": "CA",
+    "cost": "649.6933611"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/19/16",
+    "system_size": "3.465",
+    "zip_code": "92116",
+    "state": "CA",
+    "cost": "329.3962898"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/11/16",
+    "system_size": "4.56",
+    "zip_code": "92071",
+    "state": "CA",
+    "cost": "433.4912212"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/25/16",
+    "system_size": "4.35",
+    "zip_code": "92027",
+    "state": "CA",
+    "cost": "413.5278097"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "4.59",
+    "zip_code": "92029",
+    "state": "CA",
+    "cost": "480.2081365"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/5/16",
+    "system_size": "2.65",
+    "zip_code": "92028",
+    "state": "CA",
+    "cost": "251.9192404"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/24/16",
+    "system_size": "5.46",
+    "zip_code": "92110",
+    "state": "CA",
+    "cost": "519.0486991"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/15/09",
+    "system_size": "1.26",
+    "zip_code": "92672",
+    "state": "CA",
+    "cost": "510.0604865"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "2.12",
+    "zip_code": "92083",
+    "state": "CA",
+    "cost": "221.7954792"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/17/16",
+    "system_size": "4.4",
+    "zip_code": "92071",
+    "state": "CA",
+    "cost": "418.2810029"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/19/16",
+    "system_size": "3.6",
+    "zip_code": "92114",
+    "state": "CA",
+    "cost": "342.2299115"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/27/16",
+    "system_size": "18",
+    "zip_code": "92065",
+    "state": "CA",
+    "cost": "1711.149558"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "7.37",
+    "zip_code": "92009",
+    "state": "CA",
+    "cost": "771.0531516"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "11.75",
+    "zip_code": "92028",
+    "state": "CA",
+    "cost": "1229.290981"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/26/16",
+    "system_size": "6.71",
+    "zip_code": "92117",
+    "state": "CA",
+    "cost": "637.8785295"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/6/16",
+    "system_size": "6.1",
+    "zip_code": "92071",
+    "state": "CA",
+    "cost": "579.8895723"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/30/15",
+    "system_size": "6.867",
+    "zip_code": "92130",
+    "state": "CA",
+    "cost": "718.4290356"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/17/15",
+    "system_size": "7.56",
+    "zip_code": "92131",
+    "state": "CA",
+    "cost": "2.023607525"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "3/1/16",
+    "system_size": "4.95",
+    "zip_code": "92057",
+    "state": "CA",
+    "cost": "470.5661283"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/5/16",
+    "system_size": "6.375",
+    "zip_code": "92040",
+    "state": "CA",
+    "cost": "556.1236062"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "5.52",
+    "zip_code": "92009",
+    "state": "CA",
+    "cost": "577.5052099"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "2/24/16",
+    "system_size": "7.15",
+    "zip_code": "92122",
+    "state": "CA",
+    "cost": "615.4434575"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/6/16",
+    "system_size": "2.34",
+    "zip_code": "91950",
+    "state": "CA",
+    "cost": "222.4494425"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "1/27/16",
+    "system_size": "5.225",
+    "zip_code": "92677",
+    "state": "CA",
+    "cost": "451.5533555"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "6.16",
+    "zip_code": "91977",
+    "state": "CA",
+    "cost": "585.8748506"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "4.8",
+    "zip_code": "92014",
+    "state": "CA",
+    "cost": "502.1784434"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset) & California Public Utilities Commission (California Solar Initiative)",
+    "installation_date": "12/23/09",
+    "system_size": "4.41",
+    "zip_code": "92028",
+    "state": "CA",
+    "cost": "1785.211703"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/23/15",
+    "system_size": "4.16",
+    "zip_code": "91942",
+    "state": "CA",
+    "cost": "435.2213176"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/16/15",
+    "system_size": "10.07",
+    "zip_code": "92027",
+    "state": "CA",
+    "cost": "1053.528526"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/22/15",
+    "system_size": "5.775",
+    "zip_code": "92128",
+    "state": "CA",
+    "cost": "604.1834397"
+  },
+  {
+    "data_provider": "California Public Utilities Commission (Currently Interconnected Dataset)",
+    "installation_date": "12/29/15",
+    "system_size": "9.455",
+    "zip_code": "92008",
+    "state": "CA",
+    "cost": "989.1869129"
+  },
+]
