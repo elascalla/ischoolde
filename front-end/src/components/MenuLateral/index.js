@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { MdDonutLarge, MdFormatTextdirectionLToR } from "react-icons/md";
+import {
+  MdDonutLarge,
+  MdFormatTextdirectionLToR,
+  MdList
+} from "react-icons/md";
 
 // import logo from '../../assets/images/orbita_logo.png';
 
@@ -19,7 +23,10 @@ export default function Header() {
             <MdFormatTextdirectionLToR size={30} />
             Cadastrar desafio
           </Link>
-          <Link to="/ranking">Ranking</Link>
+          <Link to="/ranking">
+            <MdList size={30} />
+            Ranking
+          </Link>
         </nav>
       </Content>
     </Container>

@@ -3,22 +3,26 @@ import { darken } from "polished";
 
 export const Container = styled.div`
   background: #fff;
-  padding: 0 30px;
-  height: 100%;
-  max-width: 100px;
+  padding: 30px 5px;
+  height: 90%;
+  width: max-content;
+  align-self: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 `;
 
 export const Content = styled.div`
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: red;
 
   nav {
     display: flex;
     align-items: center;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
 
     a {
       display: flex;
@@ -27,6 +31,8 @@ export const Content = styled.div`
       font-size: 14px;
       color: #6756b8;
       transition: 0.4s;
+      margin: 10px;
+      text-transform: uppercase;
 
       svg {
         margin-right: 7px;
