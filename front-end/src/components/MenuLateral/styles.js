@@ -18,6 +18,22 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  span {
+    display: flex;
+    margin-top:  -10px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    svg {
+      margin-right: 10px;
+    }
+  }
+
   nav {
     display: flex;
     align-items: center;
