@@ -1,18 +1,20 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const Container = styled.div`
   background: #fff;
   padding: 0 30px;
+  height: 100%;
+  max-width: 100px;
 `;
 
 export const Content = styled.div`
-  height: 64px;
-  max-width: 900px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background: red;
 
   nav {
     display: flex;
@@ -31,7 +33,7 @@ export const Content = styled.div`
       }
 
       &:hover {
-        color: ${darken(0.3, '#6756b8')};
+        color: ${darken(0.3, "#6756b8")};
         transition: 0.4s;
       }
     }
@@ -64,7 +66,7 @@ export const Profile = styled.div`
       transition: 0.4s;
 
       &:hover {
-        color: ${darken(0.3, '#999')};
+        color: ${darken(0.3, "#999")};
         transition: 0.4s;
       }
     }
