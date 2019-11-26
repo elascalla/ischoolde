@@ -2,9 +2,18 @@ import React, { Component } from 'react';
 import { FiStar } from 'react-icons/fi';
 import { FaStar, FaFlagCheckered } from 'react-icons/fa';
 
-import { ProductList } from './styles';
+import { ProductList } from "./styles";
 
-export default function Dashboard(){
+export default function Dashboard() {
+  return (
+    <ProductList>
+      <li key="1">
+        <img
+          src="https://i0.wp.com/blog.grandchef.com.br/wp-content/uploads/2018/09/Logo-iFood.jpg?ssl=1"
+          alt="Desafio iFood"
+        />
+        <strong>Desafio iFood</strong>
+        <span>NIVEL 2</span>
 
     return (
       <ProductList>
@@ -45,11 +54,31 @@ export default function Dashboard(){
             <h2>+20 pontos</h2>
           </strong>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation</p>
+          <button
+            type="button"
+          >
+            <div>
+              <MdAddShoppingCart size={16} color="#FFF" />{' '}
+              2
+            </div>
 
-          <button type="button">
-            <FaFlagCheckered size={16}/>Aceitar Desafio
+            <span>ADICIONAR AO CARRINHO</span>
+          </button>
+        </li>
+        <li key="1">
+          <img src="https://i0.wp.com/blog.grandchef.com.br/wp-content/uploads/2018/09/Logo-iFood.jpg?ssl=1" alt="Desafio iFood" />
+          <strong>Desafio iFood</strong>
+          <span>NIVEL 2</span>
+
+          <button
+            type="button"
+          >
+            <div>
+              <MdAddShoppingCart size={16} color="#FFF" />{' '}
+              2
+            </div>
+
+            <span>ADICIONAR AO CARRINHO</span>
           </button>
         </li>
       </ProductList>

@@ -1,6 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   height: 100%;
-  background: linear-gradient(-90deg, #FFF, #FFF);
+  background: linear-gradient(-90deg, #0f0f17, #0f0f17);
+  display: flex;
+  flex-direction: row;
 `;

@@ -1,14 +1,17 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const Container = styled.div`
   background: #fff;
-  padding: 0 30px;
+  padding: 30px 5px;
+  height: 90%;
+  width: max-content;
+  align-self: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 `;
 
 export const Content = styled.div`
-  height: 64px;
-  max-width: 900px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -17,6 +20,9 @@ export const Content = styled.div`
   nav {
     display: flex;
     align-items: center;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
 
     a {
       display: flex;
@@ -25,13 +31,15 @@ export const Content = styled.div`
       font-size: 14px;
       color: #6756b8;
       transition: 0.4s;
+      margin: 10px;
+      text-transform: uppercase;
 
       svg {
         margin-right: 7px;
       }
 
       &:hover {
-        color: ${darken(0.3, '#6756b8')};
+        color: ${darken(0.3, "#6756b8")};
         transition: 0.4s;
       }
     }
@@ -64,7 +72,7 @@ export const Profile = styled.div`
       transition: 0.4s;
 
       &:hover {
-        color: ${darken(0.3, '#999')};
+        color: ${darken(0.3, "#999")};
         transition: 0.4s;
       }
     }
