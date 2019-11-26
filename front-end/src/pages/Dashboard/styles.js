@@ -1,159 +1,58 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
-export const Container = styled.div`
-  padding: 0 30px;
-  margin-top: 20px;
-  background: linear-gradient(-90deg, #0f0f17, #0f0f17);
-`;
-
-export const ContentChart = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
+export const ProductList = styled.ul`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 25px;
-
-  line {
-    stroke: #0f0f17;
-  }
-
-  span {
-    color: #999;
-  }
-`;
-
-export const ContentCard = styled.div`
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-
-  div {
-    margin-top: 20px;
+  list-style: none;
+  li {
     display: flex;
     flex-direction: column;
+    background: #fff;
     border-radius: 4px;
     padding: 20px;
-
-    &:nth-child(1) {
-      background: linear-gradient(-180deg, #ffa6ea, #feca7f);
+    img {
+      align-self: center;
+      max-width: 250px;
     }
-    &:nth-child(2) {
-      background: linear-gradient(-180deg, #79d9ff, #37f1a6);
-    }
-    &:nth-child(3) {
-      background: linear-gradient(-180deg, #7aa1fe, #e8a3fe);
-
-      strong {
-        text-transform: capitalize;
-      }
-    }
-
-    h1 {
-      font-size: 18px;
-      color: #fff;
-      margin-bottom: 15px;
-    }
-
-    h4 {
-      font-weight: normal;
-      margin-bottom: 15px;
-    }
-
-    strong {
-      font-size: 13px;
+    > strong {
+      font-size: 16px;
       line-height: 20px;
-      color: #fff;
+      color: #333;
       margin-top: 5px;
     }
-
-    span {
-      margin-bottom: 20px;
-      font-size: 35px;
-      color: #fff;
+    > span {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 5px 0 20px;
     }
-  }
-`;
-
-export const Content = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  nav {
-    display: flex;
-    align-items: center;
-
-    a {
+    button {
+      background: #7159c1;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: auto;
       display: flex;
       align-items: center;
-      font-size: 15px;
-      color: #999999;
-      margin-right: 30px;
-
-      svg {
-        margin-right: 7px;
-        transition: 0.4s;
-      }
-
+      transition: background 0.2s;
       &:hover {
+        background: ${darken(0.03, '#7159c1')};
+      }
+      div {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.1);
         svg {
-          color: ${darken(0.2, '#6756b8')};
-          transition: 0.4s;
+          margin-right: 5px;
         }
       }
-    }
-
-    span {
-      float: left;
-      display: block;
-    }
-  }
-
-  aside {
-    display: flex;
-    align-items: center;
-  }
-`;
-
-export const Profile = styled.div`
-  display: flex;
-  margin-left: 20px;
-  padding-left: 20px;
-  align-items: center;
-  flex-direction: row;
-
-  div {
-    text-align: right;
-
-    a {
-      margin-top: 2px;
-      color: #999;
-      font-size: 14px;
-      font-weight: bold;
-      transition: 0.4s;
-
-      img {
-        border-radius: 35px;
-        margin-top: 28px;
+      span {
+        flex: 1;
+        text-align: center;
       }
     }
   }
-`;
-
-export const Today = styled.span`
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  font-size: 25px;
-  margin-top: -25px;
 `;

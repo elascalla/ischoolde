@@ -10,7 +10,6 @@ import { Container, SubmitButton, LogoutButton, Text } from './styles';
 
 export default function Profile() {
   const dispatch = useDispatch();
-  const profile = useSelector(state => state.user.profile);
 
   function handleSubmit(data) {
     dispatch(updateProfileRequest(data));
@@ -23,11 +22,11 @@ export default function Profile() {
   return (
     <Container>
       <Text>
-        Olá <strong>{profile.name}</strong>,
+        Olá <strong>Lucas</strong>,
         <br />
         Veja as informações do seu perfil!
       </Text>
-      <Form initialData={profile} onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <Input name="name" placeholder="Nome completo" />
         <Input name="email" placeholder="Seu e-mail" />
         <Input name="state" placeholder="Seu estado" />
