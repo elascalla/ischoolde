@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { darken } from "polished";
 
 export const Container = styled.div`
-  background: linear-gradient(-120deg, #0f0f17, #1f1f2b);;
+  background: linear-gradient(-120deg, #0f0f17, #1f1f2b);
   padding: 30px 5px;
   height: 100%;
   width: max-content;

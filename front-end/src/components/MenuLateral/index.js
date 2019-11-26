@@ -26,6 +26,7 @@ export default function Header() {
             Ranking
           </Link>
         </nav>
+
       </Content>
     </Container>
   );

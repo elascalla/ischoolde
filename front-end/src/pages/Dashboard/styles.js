@@ -1,6 +1,21 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
+export const ImageSchool = styled.span`
+  align-self: center;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #0f0f17;
+  color: #fff;
+  svg {
+    margin-right: 10px;
+  }
+`;
+
 export const ProductList = styled.ul`
   max-width: 900px;
   display: grid;
