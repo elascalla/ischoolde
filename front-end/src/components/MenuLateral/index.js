@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import {
   MdDonutLarge,
   MdFormatTextdirectionLToR,
-  MdList
+  MdList,
+  MdPerson
 } from "react-icons/md";
 
 import { IoIosSchool } from "react-icons/io/";
@@ -16,6 +17,10 @@ export default function Header() {
       <Content>
         <nav>
           <span><IoIosSchool size={23}/> iSchoolde</span>
+          <Link to="/dashboard">
+            <MdPerson size={30} />
+            Perfil do Jovem
+          </Link>
           <Link to="/dashboard">
             <MdDonutLarge size={30} />
             DASHBOARD
