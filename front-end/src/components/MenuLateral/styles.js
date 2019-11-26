@@ -18,6 +18,17 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  button {
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    border: 0px;
+    border-top: 1px solid rgba(255,255,255,.3);
+    padding-top: 10px;
+  }
+
   span {
     display: flex;
     margin-top:  -10px;
