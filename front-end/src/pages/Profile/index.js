@@ -7,7 +7,9 @@ import { signOut } from "../../store/modules/auth/actions";
 import { updateProfileRequest } from "../../store/modules/user/actions";
 
 import Container from "../../components/Container";
-import { SubmitButton, Wrapper, Text } from "./styles";
+import { SubmitButton, Wrapper, Text, RankingList } from "./styles";
+
+import { FiBarChart } from "react-icons/fi";
 
 export default function Profile() {
   const dispatch = useDispatch();
@@ -30,9 +32,48 @@ export default function Profile() {
         <span>
           Ranking Escolar: <strong>30</strong> de <strong>1650</strong>
         </span>
-      </Text>
+        <RankingList>
+          <li key="1">
+            <h4>NodeJS</h4>
+            <h2>
+              Ranking:
+              <strong>12 de 1895</strong>
+            </h2>
+            {/* <span><h3>300xp</h3></span> */}
 
-      <hr />
+            <button type="button" onClick={event => window.location.href='/ranking'}>
+              <FiBarChart size={20} />
+              Ranking geral
+            </button>
+          </li>
+          <li key="1">
+            <h4>React-Native</h4>
+            <h2>
+              Ranking:
+              <strong>30 de 1500</strong>
+            </h2>
+
+            <button type="button" onClick={event => window.location.href='/ranking'}>
+              <FiBarChart size={20} />
+              Ranking geral
+            </button>
+          </li>
+          <li key="3">
+            <h4>CSS</h4>
+            <h2>
+              Ranking:
+              <strong>899 de 3600</strong>
+              <br />
+
+            </h2>
+
+            <button type="button" onClick={event => window.location.href='/ranking'}>
+              <FiBarChart size={20} />
+              Ranking geral
+            </button>
+          </li>
+        </RankingList>
+      </Text>
 
       <Wrapper>
         <Form onSubmit={handleSubmit}>
