@@ -39,6 +39,10 @@ export const ProductList = styled.ul`
     border-radius: 4px;
     min-width: 300px;
 
+    a {
+      text-decoration: none;
+    }
+
     h4 {
       background: #fff;
       color: #403f3d;

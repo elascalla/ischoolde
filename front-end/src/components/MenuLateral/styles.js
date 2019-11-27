@@ -53,6 +53,55 @@ export const Content = styled.div`
     flex: 1;
     flex-direction: column;
     align-items: flex-start;
+    
+    button {
+      img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+        border: 2px solid #fff;
+      }
+      span {
+        border-bottom: 0px;
+        height: 20px;
+        justify-content: left;
+        border-radius: 5px;
+        border: 1px solid rgba(255,255,255,.2);
+        h4 {
+          background: #319902;
+          width: 70%;
+          height: 20px;
+          border-radius: 5px 3px 3px 5px;
+          margin-left: -1px;
+          margin-top: -1px;
+          font-weight: 200;
+          padding-top: 3px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    h3 {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 10px;
+      }
+
+      h5 {
+        color: #fff;
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: 200
+      }
+    }
+
 
     a {
       flex: 0 0 auto;
@@ -65,8 +114,11 @@ export const Content = styled.div`
       margin: 10px;
       text-transform: uppercase;
       padding-bottom: 10px;
-      border-bottom: 2px solid transparent;
+      border-left: 2px solid transparent;
       min-width: 170px;
+      text-align: center;
+      padding-left: 10px;
+      padding-top: 5px;
 
       svg {
         margin-right: 7px;
@@ -74,7 +126,7 @@ export const Content = styled.div`
 
       &:hover {
         color: ${darken(0.3, "#fff")};
-        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
         transition: 0.4s;
       }
     }
