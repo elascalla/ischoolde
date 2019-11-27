@@ -13,11 +13,26 @@ export const Container = styled.div`
   }
 `;
 
+export const Title = styled.div`
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+
+  h5 {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+`
+
 export const Wrapper = styled.li`
   background: linear-gradient(-120deg, #0f0f17, #1f1f2b);
   color: #fff;
   margin: 0 0 8px 0;
-  width: 600px;
+  max-width: 900px;
   padding: 20px;
   border-radius: 6px;
   display: flex;
