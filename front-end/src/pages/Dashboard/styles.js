@@ -106,7 +106,6 @@ export const ProductList = styled.ul`
     button {
       background: transparent;
       color: #403f3d;
-      border: 1 solid #ccc;
       border-radius: 4px;
       margin: 15px;
       padding: 10px;
@@ -114,9 +113,12 @@ export const ProductList = styled.ul`
       justify-content: center;
       align-items: center;
       transition: 0.2s;
+      border: 0;
+
       &:hover {
         color: ${darken(0.06, "#403f3d")};
         transition: 1s;
+        background: #f0f0f0;
         svg {
           color: ${darken(0.06, "#403f3d")};
         }
