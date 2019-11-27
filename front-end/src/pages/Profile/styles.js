@@ -1,25 +1,34 @@
-import styled, { keyframes } from 'styled-components';
-import { darken } from 'polished';
+import styled, { keyframes } from "styled-components";
+import { darken } from "polished";
 
 export const Text = styled.div`
-  color: rgb(25, 24, 31);
-  font-size: 16px;
+  color: #403f3d;
+  line-height: 1.8;
+  font-size: 20px;
 
   strong {
     font-size: 20px;
   }
 
-  h2 {
+  span {
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    strong {
+      padding: 10px;
+    }
+  }
+
+  hr {
+    margin-top: 30px;
   }
 `;
 
-export const Container = styled.div`
-  max-width: 600px;
-  margin: 0px auto;
-
+export const Wrapper = styled.div`
   form {
     display: flex;
     flex-direction: column;
@@ -31,19 +40,14 @@ export const Container = styled.div`
 
     input {
       flex: 1;
-      border: 3px solid rgb(25, 24, 31);
-      padding: 15px 15px;
-      border-radius: 5px;
+      border: 1px solid #eee;
+      padding: 10px 15px;
+      border-radius: 4px;
       font-size: 16px;
-      margin-top: 10px;
-      width: 500px;
-      justify-content: center;
-      background: rgb(25, 24, 31);
-      color: #fff;
       margin-bottom: 10px;
 
       &:focus {
-        border-color: #6756b8;
+        border-color: #403f3d;
         transition: 0.4s;
       }
 
@@ -97,26 +101,25 @@ export const LogoutButton = styled.button`
 
   &:hover {
     border-color: #f52c36;
-    background: ${darken(0.08, '#f52c36')};
+    background: ${darken(0.08, "#f52c36")};
     transition: 0.5s;
   }
 `;
 
 export const SubmitButton = styled.button.attrs(props => ({
-  type: 'submit',
-  disabled: props.loading ? true : false,
+  type: "submit",
+  disabled: props.loading ? true : false
 }))`
-  background: #6756b8;
+  background: transparent;
+  color: #403f3d;
+  border: 1 solid #ccc;
   margin-top: 20px;
-  color: rgb(25, 24, 31);
-  border: 0;
   padding: 16px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #fff;
   transition: 0.5s;
   font-size: 16px;
 
@@ -126,9 +129,13 @@ export const SubmitButton = styled.button.attrs(props => ({
   }
 
   &:hover {
-    border-color: #6756b8;
-    background: ${darken(0.05, '#6756b8')};
-    transition: 0.5s;
+    /* color: ${darken(0.06, "#000")}; */
+    background: ${darken(0.06, "#ccc")};
+    color: #403f3d;
+    transition: 1s;
+    svg {
+      color: ${darken(0.06, "#000")};
+    }
   }
 
   svg {

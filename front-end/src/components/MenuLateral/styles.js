@@ -17,6 +17,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 170px;
 
   button {
     text-align: center;
@@ -25,19 +26,19 @@ export const Content = styled.div`
     background: transparent;
     width: 100%;
     border: 0px;
-    border-top: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 10px;
   }
 
   span {
     display: flex;
-    margin-top:  -10px;
+    margin-top: -10px;
     width: 100%;
     color: #fff;
     font-size: 20px;
     text-align: center;
     justify-content: center;
-    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 15px;
     margin-bottom: 10px;
     svg {
@@ -53,16 +54,18 @@ export const Content = styled.div`
     align-items: flex-start;
 
     a {
+      flex: 0 0 auto;
       display: flex;
       align-items: center;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 13px;
       color: #fff;
       transition: 0.4s;
       margin: 10px;
       text-transform: uppercase;
       padding-bottom: 10px;
       border-bottom: 2px solid transparent;
+      min-width: 170px;
 
       svg {
         margin-right: 7px;

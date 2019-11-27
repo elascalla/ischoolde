@@ -6,7 +6,8 @@ import { Form, Input } from "@rocketseat/unform";
 import { signOut } from "../../store/modules/auth/actions";
 import { updateProfileRequest } from "../../store/modules/user/actions";
 
-import { Container, SubmitButton, LogoutButton, Text } from "./styles";
+import Container from "../../components/Container";
+import { SubmitButton, Wrapper, Text } from "./styles";
 
 export default function Profile() {
   const dispatch = useDispatch();
@@ -25,32 +26,44 @@ export default function Profile() {
         Olá <strong>Lucas</strong>,
         <br />
         Veja as informações do seu perfil!
-
-        <h2>Ranking Escolar: <span>30 de 1650</span></h2>
+        <hr />
+        <span>
+          Ranking Escolar: <strong>30</strong> de <strong>1650</strong>
+        </span>
       </Text>
 
-      <hr/>
+      <hr />
 
-      <Form onSubmit={handleSubmit}>
-        <Input name="name" placeholder="Nome completo" value="Erick Lascalla" />
-        <Input name="email" placeholder="Seu e-mail" value="erick.lascalla@gmail.com" />
+      <Wrapper>
+        <Form onSubmit={handleSubmit}>
+          <Input
+            name="name"
+            placeholder="Nome completo"
+            value="Erick Lascalla"
+          />
+          <Input
+            name="email"
+            placeholder="Seu e-mail"
+            value="erick.lascalla@gmail.com"
+          />
 
-        <hr />
+          <hr />
 
-        <Input
-          type="password"
-          name="oldPassword"
-          placeholder="Sua senha atual"
-        />
-        <Input type="password" name="password" placeholder="Nova senha" />
-        <Input
-          type="password"
-          name="confirmPassword"
-          placeholder="Confirmação de senha"
-        />
+          <Input
+            type="password"
+            name="oldPassword"
+            placeholder="Sua senha atual"
+          />
+          <Input type="password" name="password" placeholder="Nova senha" />
+          <Input
+            type="password"
+            name="confirmPassword"
+            placeholder="Confirmação de senha"
+          />
 
-        <SubmitButton type="submit">Atualizar</SubmitButton>
-      </Form>
+          <SubmitButton type="submit">Atualizar</SubmitButton>
+        </Form>
+      </Wrapper>
     </Container>
   );
 }

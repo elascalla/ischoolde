@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Wrapper, Container, ViewButton } from "./styles";
+import Container from "../../components/Container";
+import { Wrapper, ViewButton } from "./styles";
 
 export default function RankingSchool() {
   const data = [

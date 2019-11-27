@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const ImageSchool = styled.h2`
   align-self: center;
@@ -11,6 +11,7 @@ export const ImageSchool = styled.h2`
   text-align: center;
   background: #0f0f17;
   color: #fff;
+  font-size: 30px;
 
   border-radius: 4px 4px 0px 0px;
   svg {
@@ -31,11 +32,12 @@ export const ProductList = styled.ul`
   li {
     display: flex;
     flex-direction: column;
-    background:  linear-gradient(-120deg, #fff, #fff);
+    background: linear-gradient(-120deg, #fff, #fff);
     height: 300px;
-    border: 1px solid rgba(173,173,173,.5);
-    box-shadow: 4px 4px 4px rgba(173,173,173,.5);
+    border: 1px solid rgba(173, 173, 173, 0.5);
+    box-shadow: 4px 4px 4px rgba(173, 173, 173, 0.5);
     border-radius: 4px;
+    min-width: 300px;
 
     h4 {
       background: #fff;
@@ -104,19 +106,19 @@ export const ProductList = styled.ul`
     button {
       background: transparent;
       color: #403f3d;
-      border: 0;
+      border: 1 solid #ccc;
       border-radius: 4px;
-      margin-top: auto;
+      margin: 15px;
       padding: 10px;
       display: flex;
       justify-content: center;
       align-items: center;
       transition: 0.2s;
       &:hover {
-        color: ${darken(0.06, '#403f3d')};
+        color: ${darken(0.06, "#403f3d")};
         transition: 1s;
         svg {
-          color: ${darken(0.06, '#403f3d')};
+          color: ${darken(0.06, "#403f3d")};
         }
       }
       svg {

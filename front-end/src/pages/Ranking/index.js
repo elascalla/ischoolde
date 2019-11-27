@@ -1,6 +1,7 @@
 import React from "react";
 
-import { StudentWrapper, ViewStudentButton, Container } from "./styles";
+import Container from "../../components/Container";
+import { StudentWrapper, ViewStudentButton } from "./styles";
 
 export default function Ranking() {
   const data = [

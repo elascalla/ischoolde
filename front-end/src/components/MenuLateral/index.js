@@ -19,7 +19,7 @@ export default function Header() {
       <Content>
         <nav>
           <span>
-            <IoIosSchool size={23} /> iSchoolde
+            <IoIosSchool size={25} /> iSchoolde
           </span>
           <Link to="/profile">
             <MdPerson size={30} />
