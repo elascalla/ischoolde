@@ -28,11 +28,9 @@ export default function Dashboard() {
             aprender versionamento de código!
           </p>
 
-          <button type="button">
-            <Link to="/code-submit">
-              <FaFlagCheckered size={16} />
-              Aceitar Desafio
-            </Link>
+          <button type="button" onClick={event => window.location.href='/code-submit'}>
+            <FaFlagCheckered size={16} />
+            Aceitar Desafio
           </button>
         </li>
 
