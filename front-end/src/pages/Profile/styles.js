@@ -38,24 +38,6 @@ export const Wrapper = styled.div`
       font-size: 20px;
     }
 
-    input {
-      flex: 1;
-      border: 1px solid #eee;
-      padding: 10px 15px;
-      border-radius: 4px;
-      font-size: 16px;
-      margin-bottom: 10px;
-
-      &:focus {
-        border-color: #403f3d;
-        transition: 0.4s;
-      }
-
-      &::placeholder {
-        color: #575561;
-      }
-    }
-
     hr {
       border: 0;
       height: 1px;
