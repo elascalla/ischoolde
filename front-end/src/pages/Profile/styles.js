@@ -41,8 +41,6 @@ export const Wrapper = styled.div`
       font-size: 20px;
     }
 
-<<<<<<< HEAD
-=======
     input {
       flex: 1;
       border: 2px solid #ccc;
@@ -61,7 +59,6 @@ export const Wrapper = styled.div`
       }
     }
 
->>>>>>> 02aae01e386e00672c4b225eddc706f184530cc1
     hr {
       border: 0;
       height: 1px;
