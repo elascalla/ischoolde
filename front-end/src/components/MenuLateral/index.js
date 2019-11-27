@@ -35,6 +35,7 @@ export default function Header() {
             <FiUser size={20} />
             Perfil
           </Link>
+          <span>Lucas Massi</span>
         </nav>
       </Content>
     </Container>

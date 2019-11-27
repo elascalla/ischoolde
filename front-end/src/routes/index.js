@@ -14,7 +14,7 @@ import RankingSchool from "../pages/RankingSchool";
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Login} />
+      <Route path="/" exact component={Dashboard} />
       <Route path="/register" exact component={Register} />
 
       <Route path="/dashboard" exact component={Dashboard} />
