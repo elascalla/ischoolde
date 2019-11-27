@@ -21,13 +21,9 @@ export default function Header() {
           <span>
             <IoIosSchool size={25} /> iSchoolde
           </span>
-          <Link to="/profile">
-            <MdPerson size={30} />
-            Perfil do Jovem
-          </Link>
           <Link to="/dashboard">
             <MdDonutLarge size={30} />
-            DASHBOARD
+            Dashboard
           </Link>
           <Link to="/register-challenge">
             <MdFormatTextdirectionLToR size={30} />
@@ -40,6 +36,10 @@ export default function Header() {
           <Link to="/ranking-school">
             <FiBarChart size={30} />
             Ranking Escola
+          </Link>
+          <Link to="/profile">
+            <MdPerson size={30} />
+            Perfil
           </Link>
         </nav>
       </Content>
