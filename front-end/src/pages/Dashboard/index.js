@@ -5,11 +5,19 @@ import { FaStar, FaFlagCheckered } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io/";
 
 import Container from "../../components/Container";
-import { ProductList, ImageSchool } from "./styles";
+import { ProductList, ImageSchool, Title } from "./styles";
 
 export default function Dashboard() {
   return (
     <Container>
+      <Title>
+        <h5> Complete desafios, acomule pontos e<strong> resgate prêmios! </strong> </h5> 
+        <div> 
+          <FiStar size={25} />
+          <FiStar size={40} />
+          <FiStar size={25} />
+        </div>
+      </Title>
       <ProductList>
         <li key="4">
           <img
