@@ -1,9 +1,34 @@
-import styled, { keyframes } from 'styled-components';
-import { darken } from 'polished';
+import styled, { keyframes } from "styled-components";
+import { darken } from "polished";
 
 export const Text = styled.text`
   color: #6a6a80;
-  font-size: 16px;
+  font-size: 18px;
+`;
+
+export const Wrapper = styled.div`
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.2);
+      margin: 20px 0 10px;
+    }
+
+    span {
+      color: #ed311c;
+      align-self: flex-start;
+      margin: 0 0 10px;
+    }
+  }
 `;
 
 const rotate = keyframes`
@@ -16,8 +41,8 @@ const rotate = keyframes`
 `;
 
 export const SubmitButton = styled.button.attrs(props => ({
-  type: 'submit',
-  disabled: props.loading ? true : false,
+  type: "submit",
+  disabled: props.loading ? true : false
 }))`
   background: #6756b8;
   margin-top: 20px;
@@ -40,7 +65,7 @@ export const SubmitButton = styled.button.attrs(props => ({
 
   &:hover {
     border-color: #21212b;
-    background: ${darken(0.03, '#6756b8')};
+    background: ${darken(0.03, "#6756b8")};
     transition: 0.5s;
   }
 
@@ -50,7 +75,7 @@ export const SubmitButton = styled.button.attrs(props => ({
 `;
 
 export const RegisterButton = styled.button.attrs(props => ({
-  type: 'button',
+  type: "button"
 }))`
   background: #6a6a80;
   margin-top: 20px;
