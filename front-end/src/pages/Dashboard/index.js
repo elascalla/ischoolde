@@ -33,7 +33,7 @@ export default function Dashboard() {
             Aceitar Desafio
           </button>
         </li>
-        <li key="2">
+        <li key="3">
           <img
             src="https://ogimg.infoglobo.com.br/economia/18595409-f8e-2d2/FT1086A/652/Uber_Logobit_Digital_black.jpg"
             alt="Desafio iFood"
@@ -56,16 +56,15 @@ export default function Dashboard() {
             Aceitar Desafio
           </button>
         </li>
-        <li key="3">
-          <img
-            src="https://ogimg.infoglobo.com.br/economia/18595409-f8e-2d2/FT1086A/652/Uber_Logobit_Digital_black.jpg"
-            alt="Desafio iFood"
+        <li key="4">
+          <img 
+            src="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png" 
+            alt="Foto Github"
           />
-          <h4> Nível 20 </h4>
+          <h4> Nível 5 </h4>
           <strong>
-            Desafio Uber
-            <span>R$ 30,00</span>
-            <h2>+20 pontos</h2>
+            Minha Conta GitHub
+            <h2>+30 pontos</h2>
           </strong>
 
           <p>
