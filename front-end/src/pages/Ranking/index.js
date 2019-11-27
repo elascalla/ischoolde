@@ -1,7 +1,11 @@
 import React from "react";
 
+import { FaStar, FaFlagCheckered } from "react-icons/fa";
+import { FiAward } from "react-icons/fi";
+import { GiStarGate } from "react-icons/gi";
+
 import Container from "../../components/Container";
-import { StudentWrapper, ViewStudentButton } from "./styles";
+import { StudentWrapper, ViewStudentButton, Title } from "./styles";
 
 export default function Ranking() {
   const data = [
@@ -59,6 +63,14 @@ export default function Ranking() {
 
   return (
     <Container>
+      <Title>
+        <h5> Ranking<strong> Geral </strong> </h5> 
+        <div> 
+          <FaStar size={25} />
+          <FiAward size={40} />
+          <FaStar size={25} />
+        </div>
+      </Title>
       <ul>
         {data.map(student => (
           <StudentWrapper>

@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { FiHeart } from "react-icons/fi";
+import { FiHeart, FiGift } from "react-icons/fi";
 import { FaStar, FaFlagCheckered } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io/";
 
 import Container from "../../components/Container";
-import { ProductList, ImageSchool } from "./styles";
+import { ProductList, ImageSchool, Title } from "./styles";
 
 export default function Rewards() {
   return (
     <Container>
+        <Title>
+            <h5> Resgate <strong>prêmios</strong>! </h5>
+            <div> 
+            <FaStar size={25} />
+            <FiGift size={40} />
+            <FaStar size={25} />
+            </div>
+        </Title>
       <ProductList>
         <li key="1">
           <img

@@ -25,7 +25,7 @@ export default function Profile() {
   return (
     <Container>
       <Text>
-        Olá <strong>Lucas</strong>,
+        Olá <strong>Erick</strong>,
         <br />
         Veja as informações do seu perfil!
         <hr />

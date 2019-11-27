@@ -2,7 +2,11 @@ import React from "react";
 
 import Container from "../../components/Container";
 
-import { Wrapper, Represents } from "./styles";
+import { FaStar, FaFlagCheckered } from "react-icons/fa";
+import { FiBook } from "react-icons/fi";
+import { GiStarGate } from "react-icons/gi";
+
+import { Wrapper, Represents, Title } from "./styles";
 
 export default function RankingSchool() {
   const data = [
@@ -58,6 +62,14 @@ export default function RankingSchool() {
 
   return (
     <Container>
+      <Title>
+        <h5> Ranking por <strong>Escola</strong> </h5> 
+        <div> 
+          <FaStar size={25} />
+          <FiBook size={40} />
+          <FaStar size={25} />
+        </div>
+      </Title>
       <ul>
         {data.map(school => (
           <Wrapper key={school.name}>

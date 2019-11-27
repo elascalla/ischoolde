@@ -20,6 +20,21 @@ export const ImageSchool = styled.h2`
   }
 `;
 
+export const Title = styled.div`
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+
+  h5 {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+`
+
 export const ProductList = styled.ul`
   max-width: 1200px;
   display: grid;
