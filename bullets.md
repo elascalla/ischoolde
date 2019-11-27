@@ -55,8 +55,7 @@ Ao subir de nível e pontuar, o acúmulo de pontos do aluno pode ser resgatado e
     - iFood
     - Uber
     - Steam
-    - (Quem sabe para os de nível muito alto) Rocketseat
-
+    - Rocketseat
 
 **GERA ENGAJAMENTO**
 
