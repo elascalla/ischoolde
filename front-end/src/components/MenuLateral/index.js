@@ -1,11 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  MdDonutLarge,
-  MdFormatTextdirectionLToR,
-  MdList,
-  MdPerson
-} from "react-icons/md";
 
 import { FiBarChart, FiAlignLeft, FiFlag, FiUser, FiTrendingUp} from "react-icons/fi";
 

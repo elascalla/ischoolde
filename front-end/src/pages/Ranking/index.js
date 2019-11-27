@@ -64,6 +64,7 @@ export default function Ranking() {
           <StudentWrapper>
             <img
               src={"https://api.adorable.io/avatars/50/abott@adorable.png"}
+              alt="Foto perfil"
             />
 
             <div>
