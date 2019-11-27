@@ -27,15 +27,16 @@ export default function CodeSubmit() {
 
       <strong>Descrição</strong>
       <span>
-        Já pensou ficar codando o dia inteiro e seu computador der tela azul ?
-        Acredita, não tem coisa pior! Por isso, nesse desafio você irá criar sua
-        primeira conta no GitHub, plataforma online onde você pode armazenar e
-        revisar todos os seus códigos a partir de qualquer lugar do mundo!
+        Imagine você ficar o dia inteiro codando e seu computador der tela azul?
+        <br/>Acredite, não há nada pior!
       </span>
-      <span>Então siga os passos abaixo:</span>
       <span>
-        * Se você já tem uma conta no GitHub então já está no caminho certo,
-        pule os passos abaixo e clique em ENVIAR
+        <br/>Por isso, nesse desafio você irá criar sua primeira conta GitHub, uma plataforma
+        online para armazenar e revisar todos os seus códigos em qualquer lugar do mundo.
+      </span>
+      <span><br/>Siga os passos abaixo:</span>
+      <span>
+        <br/>Se você já tem uma conta pule os passos e clique em ENVIAR.
       </span>
       <span>
         1. Acesse o{" "}

@@ -22,37 +22,37 @@ export default function RankingSchool() {
       name: "E.E. Ramiro Raimundo",
       points: 850,
       students: 40,
-      percent: 62
+      percent: 70
     },
     {
       name: "Escola Técnica Rodrigues",
       points: 720,
       students: 52,
-      percent: 58
+      percent: 65
     },
     {
       name: "E.E. Lourenço Perrine",
       points: 450,
       students: 29,
-      percent: 32
+      percent: 50
     },
     {
       name: "E.M. Tabata Magalhães",
       points: 320,
       students: 28,
-      percent: 25
+      percent: 45
     },
     {
       name: "E.E. Emiliana Moreira",
       points: 120,
       students: 40,
-      percent: 10
+      percent: 40
     },
     {
       name: "E.M. Fabricio Fernandes",
       points: 20,
       students: 28,
-      percent: 5
+      percent: 35
     }
   ];
 
@@ -74,7 +74,7 @@ export default function RankingSchool() {
             </div>
             <Represents represent={school.percent}>
               <span>
-                <div> {school.percent}xp </div>
+                <div> {school.percent}% </div>
               </span>
             </Represents>
           </Wrapper>
