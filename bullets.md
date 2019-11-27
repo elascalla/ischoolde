@@ -46,7 +46,7 @@ Todo programador precisa codar. Cada desafio gera uma pontuação na área do pr
 Quanto mais ele faz, mais ele aprende, mais ele ganha. Quanto mais ele ganha, mais ele quer fazer.
 **Faz. Aprende. Ganha. Repeat.**
 
-**GERA EXPERIENCIA** 
+**GERA EXPERIÊNCIA** 
 
 #### REWARDS
 
@@ -64,9 +64,9 @@ Essa plataforma cria três pilares:
 
 * Coloca a programação na vida do jovem.
 * Dá uma lugar que promove prática continua.
-* Motiva o aluno a sempre melhorar (+nível = >desafio)
+* Motiva o aluno a sempre melhorar (mais nível = maiores desafios)
 * O compensa imediatamente
 
 Como o Diego falou na segunda, senioridade vem de maturidade, de tentar e errar e tentar de novo e só então progredir. Ser sênior é ser calejado. 
 
-Com essa plataforma, criamos um ambiente que o aluno entra com nenhuma experiência, começa a aprender, recebe compensação imediata, é incentivado a progredir e motivado a não parar.
+Com essa plataforma, criamos um ambiente que o aluno entra com nenhuma experiência,começa a aprender, recebe compensação imediata, é incentivado a progredir e motivado a não parar.
