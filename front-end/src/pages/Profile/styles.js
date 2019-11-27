@@ -35,6 +35,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     margin-left: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
 
     h2 {
       font-size: 20px;
@@ -42,7 +43,7 @@ export const Wrapper = styled.div`
 
     input {
       flex: 1;
-      border: 1px solid #eee;
+      border: 2px solid #ccc;
       padding: 10px 15px;
       border-radius: 4px;
       font-size: 16px;
@@ -112,9 +113,9 @@ export const SubmitButton = styled.button.attrs(props => ({
   type: "submit",
   disabled: props.loading ? true : false
 }))`
-  background: transparent;
-  color: #403f3d;
-  border: 1 solid #ccc;
+  background: #1f1f2b;
+  color: #fff;
+  border: 0;
   margin-top: 20px;
   padding: 16px;
   border-radius: 4px;
@@ -131,13 +132,8 @@ export const SubmitButton = styled.button.attrs(props => ({
   }
 
   &:hover {
-    /* color: ${darken(0.06, "#000")}; */
-    background: ${darken(0.06, "#ccc")};
-    color: #403f3d;
+    background: ${darken(0.06, "#1f1f2b")};
     transition: 1s;
-    svg {
-      color: ${darken(0.06, "#000")};
-    }
   }
 
   svg {

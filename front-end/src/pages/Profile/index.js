@@ -102,7 +102,7 @@ export default function Profile() {
             placeholder="Confirmação de senha"
           />
 
-          <SubmitButton type="submit">Atualizar</SubmitButton>
+          <SubmitButton type="button">Atualizar</SubmitButton>
         </Form>
       </Wrapper>
     </Container>
