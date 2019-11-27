@@ -21,7 +21,7 @@ export default function Header() {
           </span>
           <Link to="/dashboard">
             <FiAlignLeft size={20} />
-            Dashboard
+            Desafios
           </Link>
           <Link to="/ranking">
             <FiTrendingUp size={20} />
