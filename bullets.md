@@ -5,7 +5,7 @@
 
 ## O problema
 
-Como levar a programação para dentro das escolas e mostrar pros alunos que existe uma carreira compensativa na área?
+Como levar a programação para dentro das escolas e mostrar para os alunos que existe uma carreira emocionante na área da computação?
 
 ## A solução
 
@@ -22,9 +22,9 @@ Uma plataforma de desafios do nível mais básico ao mais avançado onde o aluno
   - Paradigmas de programação.
   - Trabalho em equipe
 
-Não são desafios pra aprender a codar, mas pra aprender a ser um programador.
+Não são desafios pra aprender somente a codar, mas pra aprender a ser um programador completo.
 
-Desafios resolvidos liberam desafios mais complicados, criando a trilha que todos nós passamos como programadores.
+Ao resolver um desafio, novos desafios são liberados de acordo com o nível atingido, criando a trilha que todos nós passamos como programadores.
 
 Coisas que o Diego trás no bootcamp
 O que gera aquela boa cultura que o Rodrigo falou, que é o que chama atenção das empresas
