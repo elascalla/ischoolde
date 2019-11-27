@@ -12,6 +12,7 @@ export const ImageSchool = styled.h2`
   background: #0f0f17;
   color: #fff;
   font-size: 30px;
+  margin-left: -100px;
 
   border-radius: 4px 4px 0px 0px;
   svg {
@@ -20,10 +21,10 @@ export const ImageSchool = styled.h2`
 `;
 
 export const ProductList = styled.ul`
-  max-width: 900px;
+  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
   list-style: none;
   margin: 0 auto;
   margin-top: 20px;
