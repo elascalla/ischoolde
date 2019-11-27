@@ -55,12 +55,28 @@ export const Wrapper = styled.li`
 export const Represents = styled.div.attrs(props => ({
   width: props.width
 }))`
-  width: ${props => props.percent}px;
-  height: 20px;
-  margin: 15px auto;
-  background: #7159c1;
-  border-radius: 5px;
-  box-shadow: inset 0 0 5px #000;
+  span {
+    border-bottom: 0px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100px;
+    background: #fff;
+    height: 25px;
+    div {
+      display: flex;
+      background: #319902;
+      width: ${props => props.represent}%;
+      height: 25px;
+      justify-content: center;
+      border-radius: 5px 3px 3px 5px;
+      margin-left: -1px;
+      margin-top: -1px;
+      font-weight: 200;
+      padding-top: 8px;
+      font-size: 12px;
+    }
+  }
 `;
 
 export const ViewButton = styled.p``;
