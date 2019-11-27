@@ -57,8 +57,8 @@ export const Container = styled.div`
       border: 0;
       border-radius: 4px;
       height: 44px;
-      padding: 0 15px;
       color: #0f0f17;
+      padding: 10px;
 
       &::placeholder {
         color: #0f0f1799;
