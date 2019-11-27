@@ -24,7 +24,7 @@ Uma plataforma de desafios do nível mais básico ao mais avançado onde o aluno
 
 Não são desafios pra aprender somente a codar, mas pra aprender a ser um programador completo.
 
-Ao resolver um desafio, novos desafios são liberados de acordo com o nível antigido, criando a trilha que todos nós passamos como programadores.
+Ao resolver um desafio, novos desafios são liberados de acordo com o nível atingido, criando a trilha que todos nós passamos como programadores.
 
 Coisas que o Diego trás no bootcamp
 O que gera aquela boa cultura que o Rodrigo falou, que é o que chama atenção das empresas
