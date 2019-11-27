@@ -5,7 +5,7 @@
 
 ## O problema
 
-Como levar a programação para dentro das escolas e mostrar para os alunos que existe uma carreira emocionante na área?
+Como levar a programação para dentro das escolas e mostrar para os alunos que existe uma carreira emocionante na área da computação?
 
 ## A solução
 
