@@ -14,7 +14,7 @@ import RankingSchool from "../pages/RankingSchool";
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Login} />
+      <Route path="/" exact component={Dashboard} />
       <Route path="/register" exact component={Register} />
 
       <Route path="/dashboard" exact component={Dashboard} />
@@ -23,8 +23,6 @@ export default function Routes() {
       <Route path="/ranking" exact component={Ranking} />
       <Route path="/code-submit" exact component={CodeSubmit} />
       <Route path="/ranking-school" exact component={RankingSchool} />
-
-      <Route path="/" component={Register} />
     </Switch>
   );
 }
