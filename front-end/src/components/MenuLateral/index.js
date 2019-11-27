@@ -31,11 +31,13 @@ export default function Header() {
             <FiBarChart size={20} />
             Ranking Escola
           </Link>
-          <Link to="/profile">
-            <FiUser size={20} />
-            Perfil
-          </Link>
-          <span>Lucas Massi</span>
+          <button onClick="/profile">
+            <img 
+              src="https://api.adorable.io/avatars/50/abott@adorable.png"
+            />
+            <span> <h4> 300xp </h4> </span>
+            <h5> Lucas Massi </h5>
+          </button>
         </nav>
       </Content>
     </Container>

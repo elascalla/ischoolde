@@ -63,7 +63,7 @@ export default function Ranking() {
         {data.map(student => (
           <StudentWrapper>
             <img
-              src={"https://api.adorable.io/avatars/50/abott@adorable.png"}
+              src="https://api.adorable.io/avatars/50/abott@adorable.png"
               alt="Foto perfil"
             />
 
