@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { FiStar } from "react-icons/fi";
 import { FaStar, FaFlagCheckered } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io/";
@@ -10,6 +11,31 @@ export default function Dashboard() {
   return (
     <Container>
       <ProductList>
+        <li key="4">
+          <img
+            src="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png"
+            alt="Foto Github"
+          />
+          <h4> Nível 1 </h4>
+          <strong>
+            Minha conta no GitHub
+            <h2>+30 pontos</h2>
+          </strong>
+
+          <p>
+            Já pensou ficar codando o dia inteiro e seu computador der tela azul
+            ? Acredita, não tem coisa pior! Por isso, nesse desafio você irá
+            criar sua conta no GitHub !
+          </p>
+
+          <button type="button">
+            <Link to="/code-submit">
+              <FaFlagCheckered size={16} />
+              Aceitar Desafio
+            </Link>
+          </button>
+        </li>
+
         <li key="1">
           <img
             src="https://img.ibxk.com.br/2018/08/23/23122750018066.jpg?w=1120&h=420&mode=crop&scale=both"
@@ -43,28 +69,6 @@ export default function Dashboard() {
             Desafio Uber
             <span>R$ 30,00</span>
             <h2>+20 pontos</h2>
-          </strong>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation
-          </p>
-
-          <button type="button">
-            <FaFlagCheckered size={16} />
-            Aceitar Desafio
-          </button>
-        </li>
-        <li key="4">
-          <img 
-            src="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png" 
-            alt="Foto Github"
-          />
-          <h4> Nível 5 </h4>
-          <strong>
-            Minha Conta GitHub
-            <h2>+30 pontos</h2>
           </strong>
 
           <p>

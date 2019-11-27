@@ -1,19 +1,45 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #eef;
   max-width: 800px;
   width: 100%;
   margin: 50px auto;
-  align-self: center;
-  height: max-content;
-  border-radius: 4px;
   padding: 15px;
-  display: flex;
-  flex-direction: column;
+  height: max-content;
+
+  color: #403f3d;
+  line-height: 1.8;
+  font-size: 15px;
+
+  strong {
+    font-size: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  background: linear-gradient(-120deg, #fff, #fff);
+  border: 1px solid rgba(173, 173, 173, 0.5);
+  box-shadow: 4px 4px 4px rgba(173, 173, 173, 0.5);
+  border-radius: 4px;
 
   h1 {
     color: #0f0f17;
+  }
+
+  strong {
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 20px;
+    margin: 6px;
+    display: flex;
+
+    strong {
+      padding: 10px;
+    }
   }
 
   form {
@@ -47,7 +73,7 @@ export const Container = styled.div`
     }
 
     textarea {
-      height: 100%;
+      height: 200px;
       background: #0f0f1716;
       border: 0;
       border-radius: 4px;
@@ -61,10 +87,10 @@ export const Container = styled.div`
       margin: 10px 0 0;
       padding: 0 10px;
       height: 44px;
-      background: #0f0f17;
+      background: linear-gradient(-120deg, #0f0f17, #1f1f2b);
+      color: #fff;
       font-size: 16px;
       font-weight: bold;
-      color: #fff;
       border: 0;
       border-radius: 4px;
       transition: background 0.35s;

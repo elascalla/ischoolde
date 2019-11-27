@@ -1,28 +1,9 @@
 const placeholder = `
-{
   /*
   *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  * Insira seu código aqui
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
-  *
+  * Copie e cole seu código aqui
   *
   */
-}
 `;
 
 export default placeholder;
