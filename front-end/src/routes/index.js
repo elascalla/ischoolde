@@ -4,7 +4,7 @@ import Route from "./Route";
 
 import Dashboard from "../pages/Dashboard";
 import Profile from "../pages/Profile";
-import Login from "../pages/Login";
+import Rewards from "../pages/Rewards";
 import Register from "../pages/Register";
 import CadastroDesafio from "../pages/CadastroDesafio";
 import Ranking from "../pages/Ranking";
@@ -23,6 +23,7 @@ export default function Routes() {
       <Route path="/ranking" exact component={Ranking} />
       <Route path="/code-submit" exact component={CodeSubmit} />
       <Route path="/ranking-school" exact component={RankingSchool} />
+      <Route path="/rewards" exact component={Rewards} />
     </Switch>
   );
 }

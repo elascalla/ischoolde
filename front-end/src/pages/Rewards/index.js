@@ -7,13 +7,13 @@ import { IoIosSchool } from "react-icons/io/";
 import Container from "../../components/Container";
 import { ProductList, ImageSchool } from "./styles";
 
-export default function Dashboard() {
+export default function Rewards() {
   return (
     <Container>
       <ProductList>
         <li key="4">
           <img
-            src="https://logodownload.org/wp-content/uploads/2019/08/github-logo.png"
+            src="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png"
             alt="Foto Github"
           />
           <h4> Nível 1 </h4>
@@ -25,7 +25,7 @@ export default function Dashboard() {
           <p>
             Já pensou ficar codando o dia inteiro e seu computador der tela azul
             ? Acredita, não tem coisa pior! Por isso, nesse desafio você irá
-            aprender versionamento de código!
+            criar sua conta no GitHub !
           </p>
 
           <button type="button">
@@ -43,7 +43,7 @@ export default function Dashboard() {
           />
           <h4> Nível 30 </h4>
           <strong>
-            Desafio Steam
+            Desafio iFood
             <span>R$ 100,00</span>
             <h2>+5 pontos</h2>
           </strong>
@@ -59,7 +59,29 @@ export default function Dashboard() {
             Aceitar Desafio
           </button>
         </li>
+        <li key="1">
+          <img
+            src="https://logodownload.org/wp-content/uploads/2019/08/github-logo.png"
+            alt="Desafio iFood"
+          />
+          <h4> Nível 30 </h4>
+          <strong>
+            Desafio iFood
+            <span>R$ 100,00</span>
+            <h2>+5 pontos</h2>
+          </strong>
 
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation
+          </p>
+
+          <button type="button">
+            <FaFlagCheckered size={16} />
+            Aceitar Desafio
+          </button>
+        </li>
         <li key="1">
           <img
             src="https://img.ibxk.com.br/2018/08/23/23122750018066.jpg?w=1120&h=420&mode=crop&scale=both"
@@ -90,7 +112,7 @@ export default function Dashboard() {
           />
           <h4> Nível 30 </h4>
           <strong>
-            Desafio Netflix
+            Desafio iFood
             <span>R$ 100,00</span>
             <h2>+5 pontos</h2>
           </strong>
@@ -113,7 +135,7 @@ export default function Dashboard() {
           />
           <h4> Nível 30 </h4>
           <strong>
-            Desafio Shawee
+            Desafio iFood
             <span>R$ 100,00</span>
             <h2>+5 pontos</h2>
           </strong>
@@ -136,7 +158,7 @@ export default function Dashboard() {
           />
           <h4> Nível 30 </h4>
           <strong>
-            Desafio Sympla
+            Desafio iFood
             <span>R$ 100,00</span>
             <h2>+5 pontos</h2>
           </strong>
@@ -159,7 +181,7 @@ export default function Dashboard() {
           />
           <h4> Nível 20 </h4>
           <strong>
-            Desafio Hotmart
+            Desafio Uber
             <span>R$ 30,00</span>
             <h2>+20 pontos</h2>
           </strong>
@@ -182,7 +204,7 @@ export default function Dashboard() {
           />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio Impulso
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -204,7 +226,7 @@ export default function Dashboard() {
           />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio Neon
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -220,10 +242,13 @@ export default function Dashboard() {
           </button>
         </li>
         <li key="4">
-          <img src="http://bossabox.com/img/artboard-2.png" alt="Foto Github" />
+          <img
+            src="http://bossabox.com/img/artboard-2.png"
+            alt="Foto Github"
+          />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio bossabox
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -245,7 +270,7 @@ export default function Dashboard() {
           />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio Vulpi
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -267,7 +292,7 @@ export default function Dashboard() {
           />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio Rocketseat
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -289,7 +314,7 @@ export default function Dashboard() {
           />
           <h4> Nível 5 </h4>
           <strong>
-            Desafio Zup
+            Minha Conta GitHub
             <h2>+30 pontos</h2>
           </strong>
 
@@ -304,27 +329,7 @@ export default function Dashboard() {
             Aceitar Desafio
           </button>
         </li>
-        <li key="4">
-          <ImageSchool>
-            <IoIosSchool size={35} /> iSchoolde
-          </ImageSchool>
-          <h4> Nível 20 </h4>
-          <strong>
-            Desafio iSchoolde
-            <h2>+20 pontos</h2>
-          </strong>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation
-          </p>
-
-          <button type="button">
-            <FaFlagCheckered size={16} />
-            Aceitar Desafio
-          </button>
-        </li>
+        
       </ProductList>
     </Container>
   );

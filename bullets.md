@@ -1,25 +1,17 @@
 
-# **Time 24**: 
-## Erick, Gustavo, Jardel, Lucas, Rogério
+## **Time 24**: 
 
----
+**Erick, Gustavo, Jardel, Lucas, Rogério**
 
 ## O problema
 
 Como levar a programação para dentro das escolas e mostrar pros alunos que existe uma carreira compensativa na área?
 
----
-
 ## A solução
 
-Começar imediatamente. Dar a oportunidade do aluno começar a carreira ali.
-(não sei vocês, mas eu particularmente, se tivesse começado a carreira de programador no meu ensino médio, estaria, hoje, muito mais avançado)
+Começar imediatamente. Dar a oportunidade do aluno começar a carreira no mesmo dia que ele entrar na plataforma.
 
----
-
-## A ideia
-
- CHALLENGES. CODE. REWARDS.
+## A ideia: CHALLENGES. CODE. REWARDS.
 
 #### CHALLENGES
 
