@@ -1,6 +1,20 @@
 import styled from "styled-components";
 import { darken } from "polished";
 
+export const Title = styled.div`
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  justify-content: space-between;
+
+  h5 {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+`
+
 export const ImageSchool = styled.h2`
   align-self: center;
   display: flex;
