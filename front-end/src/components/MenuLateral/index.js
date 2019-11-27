@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FiBarChart, FiAlignLeft, FiFlag, FiUser, FiTrendingUp} from "react-icons/fi";
+import { 
+  FiBarChart, FiAlignLeft, 
+  FiFlag, FiUser, FiTrendingUp,
+  FiGift
+} from "react-icons/fi";
 
 import { IoIosSchool } from "react-icons/io/";
 
@@ -19,10 +23,6 @@ export default function Header() {
             <FiAlignLeft size={20} />
             Dashboard
           </Link>
-          <Link to="/register-challenge">
-            <FiFlag size={20} />
-            Cadastrar desafio
-          </Link>
           <Link to="/ranking">
             <FiTrendingUp size={20} />
             Ranking
@@ -31,12 +31,16 @@ export default function Header() {
             <FiBarChart size={20} />
             Ranking Escola
           </Link>
+          <Link to="/rewards">
+            <FiGift size={20} />
+            Resgatar prêmios
+          </Link>
           <button onClick={event => window.location.href='/profile'}>
             <img 
               src="https://api.adorable.io/avatars/50/abott@adorable.png"
             />
             <span> <h4> 300xp </h4> </span>
-            <h5> Lucas Massi </h5>
+            <h5> Erick Lascalla </h5>
           </button>
         </nav>
       </Content>
