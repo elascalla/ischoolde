@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiStar } from "react-icons/fi";
 import { FaStar, FaFlagCheckered } from "react-icons/fa";
+import { GiStarGate } from "react-icons/gi";
 import { IoIosSchool } from "react-icons/io/";
 
 import Container from "../../components/Container";
@@ -13,9 +14,9 @@ export default function Dashboard() {
       <Title>
         <h5> Complete desafios, acomule pontos e<strong> resgate prêmios! </strong> </h5> 
         <div> 
-          <FiStar size={25} />
-          <FiStar size={40} />
-          <FiStar size={25} />
+          <FaStar size={25} />
+          <GiStarGate size={40} />
+          <FaStar size={25} />
         </div>
       </Title>
       <ProductList>
