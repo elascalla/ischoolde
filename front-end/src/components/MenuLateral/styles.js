@@ -53,7 +53,7 @@ export const Content = styled.div`
     flex: 1;
     flex-direction: column;
     align-items: flex-start;
-
+    
     button {
       img {
         border-radius: 50%;

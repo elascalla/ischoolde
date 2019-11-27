@@ -31,7 +31,7 @@ export default function Header() {
             <FiBarChart size={20} />
             Ranking Escola
           </Link>
-          <button onClick="/profile">
+          <button onClick={event => window.location.href='/profile'}>
             <img 
               src="https://api.adorable.io/avatars/50/abott@adorable.png"
             />
