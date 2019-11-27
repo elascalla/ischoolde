@@ -52,4 +52,15 @@ export const Wrapper = styled.li`
   }
 `;
 
+export const Represents = styled.div.attrs(props => ({
+  width: props.width
+}))`
+  width: ${props => props.percent}px;
+  height: 20px;
+  margin: 15px auto;
+  background: #7159c1;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #000;
+`;
+
 export const ViewButton = styled.p``;

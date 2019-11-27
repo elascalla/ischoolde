@@ -1,19 +1,22 @@
 import React from "react";
 
 import Container from "../../components/Container";
-import { Wrapper, ViewButton } from "./styles";
+
+import { Wrapper, Represents } from "./styles";
 
 export default function RankingSchool() {
   const data = [
     {
       name: "E.E. Mariano Lago Pereira",
       points: 450,
-      students: 40
+      students: 40,
+      percent: 80
     },
     {
       name: "E.M. Zeferino Rodrigues",
       points: 320,
-      students: 28
+      students: 28,
+      percent: 25
     }
   ];
 
@@ -33,8 +36,11 @@ export default function RankingSchool() {
               <p>Alunos</p>
               <p> {school.students}</p>
             </div>
-            <button type="button">VER PERFIL</button>
-            <ViewButton />
+            <div>
+              <Represents percent={school.percent} />
+            </div>
+            {/* <button type="button">VER PERFIL</button>
+            <ViewButton /> */}
           </Wrapper>
         ))}
       </ul>
