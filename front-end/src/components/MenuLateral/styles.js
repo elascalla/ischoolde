@@ -10,6 +10,7 @@ export const Container = styled.div`
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
   box-shadow: 2px 2px 2px #c6c6c6;
+  position: fixed;
 `;
 
 export const Content = styled.div`

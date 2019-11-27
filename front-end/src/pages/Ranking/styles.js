@@ -23,6 +23,7 @@ export const StudentWrapper = styled.li`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 100px;
 
   div {
     display: flex;
