@@ -23,8 +23,6 @@ export default function Routes() {
       <Route path="/ranking" exact component={Ranking} />
       <Route path="/code-submit" exact component={CodeSubmit} />
       <Route path="/ranking-school" exact component={RankingSchool} />
-
-      <Route path="/" component={Register} />
     </Switch>
   );
 }
